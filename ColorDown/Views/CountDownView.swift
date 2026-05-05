@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-import SwiftUI
-
 struct CountDownView: View {
     @State private var countdown: Int = -1 // 초기 카운트다운 값
     @State private var progress: CGFloat = 1.0 // 배경 경계선 진행도
